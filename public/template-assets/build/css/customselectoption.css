@@ -1,0 +1,11 @@
+.select2 {
+    max-width: 100%;
+    width: 100%;
+}
+.select2-container--open {
+    z-index: 9999;
+}
+.select2-results__option {
+    padding-left: 0px;
+    padding-right: 0px;
+}
