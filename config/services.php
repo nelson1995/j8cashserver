@@ -39,6 +39,9 @@ return [
     ],
     'africastalking'=>[
         'key'=>env('AFRICAS_TALKING_API_KEY')
+    ],
+    'africastalkingrealkey' =>[
+        'username'=>env('AFRICAS_TALKING_UNAME'),
+        'key'=>env('AFRICAS_TALKING_API_KEY_REAL_KEY'),
     ]
-
 ];

@@ -420,12 +420,9 @@ class UserController extends Controller
 
 
         // Add AfricaIsTalkingApi
-        // $username = 'sandbox'; // use 'sandbox' for development in the test environment
-        // $apiKey   = 'fcd26c318eeea8a73edf9f6b4ec56dc187526f3e14aab37e5bbae143614a9144';
-
-        $username = "benrapha";
-        $apiKey = "44d6b88d9310cb04b02fe414837d2d5b49b6a7d5ac6b0e0c5c3766e34807e7df";
-
+        $username = config('services.africastalkingrealkey.uname');
+        $apikey =  config('services.africastalkingrealkey.key');
+        
         $AT       = new AfricasTalking($username, $apiKey);
         // Get one of the services
         $sms      = $AT->sms();

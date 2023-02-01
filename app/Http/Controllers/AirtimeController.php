@@ -47,8 +47,6 @@ class AirtimeController extends Controller
 		$username = "sandbox";
 		$apiKey   = config('services.africastalking.key');
 
- 		// $username = "benrapha";
-   //      $apiKey = "44d6b88d9310cb04b02fe414837d2d5b49b6a7d5ac6b0e0c5c3766e34807e7df";
 
 		// Initialize the SDK
 		$AT       = new AfricasTalking($username, $apiKey);
