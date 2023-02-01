@@ -1,4 +1,4 @@
-## About J8 Cash App
+## J8 Cash payments App
 
 This is the server backend for the mobile app j8 cash android.
 
