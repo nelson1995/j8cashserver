@@ -1,5 +1,7 @@
 <?php
 
+namespace Database\Seeders;
+
 use App\ExchangeRate;
 use App\Http\Traits\CurrentDateTimeTrait;
 use Illuminate\Database\Seeder;

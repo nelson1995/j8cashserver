@@ -1,5 +1,7 @@
 <?php
 
+namespace Database\Seeders;
+
 use App\User;
 use App\Deposit;
 use Carbon\Carbon;
