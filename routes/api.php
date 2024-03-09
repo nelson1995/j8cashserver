@@ -7,8 +7,8 @@ use App\Http\Controllers\AirtimeController;
 use App\Http\Controllers\DepositController;
 use App\Http\Controllers\TransferController;
 use App\Http\Controllers\WithDrawController;
-use App\Http\Controllers\TransactionsController;
 use App\Http\Controllers\PaymentMethodController;
+
 
 /*
 |--------------------------------------------------------------------------

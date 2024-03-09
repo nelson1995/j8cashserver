@@ -1,18 +1,17 @@
 <?php
 
-use Auth\LoginController;
-use GuzzleHttp\Middleware;
-use Auth\RegisterController;
-use Auth\ForgotPasswordController;
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AirtimeController;
 use App\Http\Controllers\DepositController;
 use App\Http\Controllers\TransferController;
-use App\Http\Controllers\WithDrawController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\PermissionsController;
 use App\Http\Controllers\ExchangeRateController;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Auth\ForgotPasswordController;
+
 
 /*
 |--------------------------------------------------------------------------
