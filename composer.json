@@ -12,6 +12,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "africastalking/africastalking": "^3.0.2",
+        "fakerphp/faker": "^1.5",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "fx3costa/laravelchartjs": "^2.8",
@@ -46,7 +47,10 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"  
-        }
+        },
+        "files": [
+            "app/Lib/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

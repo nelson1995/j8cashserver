@@ -2,19 +2,20 @@
 
 namespace App;
 
+use Spatie\MediaLibrary\HasMedia;
 use Laravel\Passport\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
 use Illuminate\Notifications\Notifiable;
-use Spatie\MediaLibrary\HasMedia\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Auth\Passwords\CanResetPassword;
-use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 use App\Notifications\ResetPasswordNotification;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable implements HasMedia
 {
-    use HasApiTokens,Notifiable,HasMediaTrait,CanResetPassword;
+    use HasApiTokens,Notifiable,CanResetPassword, InteractsWithMedia;
+    // use HasMediaTrait;
     use HasRoles;
 
     /**
